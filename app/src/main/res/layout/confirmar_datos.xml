@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_margin"
+        android:text="@string/confirmacion_datos"
+        android:textColor="@color/colorBlanco"
+        android:textSize="@dimen/tamano_encabezado"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginTop="@dimen/espacio_elementos"
+        android:textSize="@dimen/tamano_info"
+        android:text="@string/nombre"
+        android:textColor="@color/colorBlanco"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginTop="@dimen/espacio_elementos"
+        android:textSize="@dimen/tamano_info"
+        android:text="@string/fecha"
+        android:textColor="@color/colorBlanco"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginTop="@dimen/espacio_elementos"
+        android:textSize="@dimen/tamano_info"
+        android:text="@string/telefono"
+        android:textColor="@color/colorBlanco"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginTop="@dimen/espacio_elementos"
+        android:textSize="@dimen/tamano_info"
+        android:text="@string/email"
+        android:textColor="@color/colorBlanco"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginTop="@dimen/espacio_elementos"
+        android:textSize="@dimen/tamano_info"
+        android:text="@string/descripcion"
+        android:textColor="@color/colorBlanco"
+        />
+
+    <Button
+        android:theme="@style/MiBotonRaised"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/espacio_elementos"
+        android:text="@string/boton_editar"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

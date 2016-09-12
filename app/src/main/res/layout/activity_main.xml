@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/left_margin"
+    android:paddingRight="@dimen/right_margin"
+    android:orientation="vertical"
+    tools:context="alexmena.proyectoformulario.MainActivity"
+    android:background="@drawable/background2"
+    >
+
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_margin"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:text="@string/nombre_persona"
+        android:textColor="@color/colorBlanco"
+
+         />
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_marginRight="@dimen/right_margin"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:id="@+id/buttonSetDate"
+            android:theme="@style/MiBotonRaised"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_centerHorizontal="true"
+            android:onClick="setDate"
+            android:text="@string/date_button_set"
+            />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/espacio_elementos"
+            android:layout_centerHorizontal="true"
+            android:text="@string/date_label_set"
+            android:textColor="@color/colorBlanco"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonSetDate"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/espacio_elementos"
+            android:textColor="@color/colorBlanco"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="@string/date_view_set"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorBlanco"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/espacio_elementos"
+            android:text="@string/date_selected"
+            />
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/editTextTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_margin"
+        android:inputType="phone"
+        android:ems="10"
+        android:text="@string/telefono_persona"
+        android:textColor="@color/colorBlanco"
+         />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_margin"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:text="@string/email_persona"
+        android:textColor="@color/colorBlanco"
+         />
+
+    <EditText
+        android:id="@+id/editTextDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_margin"
+        android:text="@string/descripcion_persona"
+        android:textColor="@color/colorBlanco"
+         />
+
+    <Button
+        android:id="@+id/buttonSiguiente"
+        android:theme="@style/MiBotonRaised"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/top_margin"
+        android:text="@string/boton_siguiente"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+
+

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ProyectoFormulario</string>
+    <string name="nombre_persona">Nombre completo</string>
+    <string name="telefono_persona">Teléfono</string>
+    <string name="email_persona">Email</string>
+    <string name="descripcion_persona">Descripción contacto</string>4
+    <string name="boton_siguiente">Siguiente</string>
+    <string name="date_label_set">Presiona el boton para seleccionar fecha</string>
+    <string name="date_button_set">Fecha de nacimiento</string>
+    <string name="date_view_set">Tú fecha de nacimiento es: </string>
+    <string name="date_selected"></string>
+    <string name="boton_editar">Editar Datos</string>
+    <string name="confirmacion_datos">CONFIRMAR DATOS</string>
+    <string name="nombre">Armando Vera</string>
+    <string name="fecha">Fecha de nacimiento: 12/09/85</string>
+    <string name="telefono">Tel: 473 249 78 56</string>
+    <string name="email">Email: armandovera@gmail.com</string>
+    <string name="descripcion">Descripción: Amigo de Laura Sánchez</string>
+</resources>
